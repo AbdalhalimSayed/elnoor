@@ -1,0 +1,168 @@
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+body {
+    direction: rtl;
+    text-align: right;
+}
+
+.navbar-brand img {
+    border-radius: 60%;
+}
+
+.container-fluid {
+    color: black;
+    padding: 17px 0px;
+    font-size: 18px;
+}
+
+.navbar-nav {
+    text-align: center;
+}
+
+.active {
+    margin-left: 20px;
+}
+
+.collapse {
+    margin-right: 40%;
+}
+
+/* courser */
+.carousel-caption p {
+    color: black;
+}
+
+.about {
+    position: relative;
+    top: -17px;
+    background-color: rgb(14, 14, 155);
+    color: white;
+}
+
+.about .col-md-4 a {
+    color: white;
+    text-decoration: none;
+    width: auto;
+}
+
+.about .col-md-4 a:hover {
+    color: orange;
+}
+
+.cap {
+    color: white;
+    font-size: xx-large;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bolder;
+    text-shadow: 2px 3px 2px rgb(255, 0, 43);
+    position: relative;
+    top: -100PX;
+}
+
+.carousel-item img {
+    height: 350px;
+    width: 100%;
+}
+
+.aboutus {
+    font-size: 18px;
+    line-height: 30px;
+}
+
+.elnoor {
+    width: 280px;
+    height: 250px;
+    border-radius: 20px;
+    box-shadow: 1px -2px 20px 1px grey;
+}
+
+.elnoor:hover {
+    box-shadow: 2px -2px 20px 1px grey;
+}
+
+/* services */
+.texted {
+    line-height: 30px;
+    font-size: 20px;
+}
+
+.image img {
+    width: 90%;
+    height: 300px;
+    border-radius: 10%;
+    box-shadow: 2px -10px 5px -2px grey;
+}
+
+.serviceHeader {
+    border-right: 5px solid #0d0d75;
+    box-shadow: 1px -2px 10px -1px grey;
+    border-bottom: 1px solid #0d0d75;
+    border-radius: 10px;
+    padding: 10px 0px;
+    color: #060680;
+}
+
+.starts {
+    background-color: #c4bfbfa8;
+
+}
+
+.starts h1 {
+    color: #0d0d75;
+}
+
+.messtart h3 {
+    color: #060680;
+}
+
+.services {
+    width: 90%;
+    margin: auto;
+}
+
+.services .ser1 {
+    width: 15%;
+    position: relative;
+    top: 35px;
+    float: right;
+}
+
+.services .ser2 {
+    width: 85%;
+    float: right;
+}
+
+.communiction {
+    box-sizing: border-box;
+    width: 60%;
+    margin: auto;
+    background-color: white;
+    padding: 5px;
+    box-shadow: 2px -5px 1px -1px gray;
+    border-radius: 20px;
+    position: fixed;
+    bottom: 50px;
+    right: 20%;
+}
+
+
+.communiction .phone {
+    width: 50%;
+    font-size: 18px;
+    float: right;
+}
+
+.phone a,
+.whatsapp a {
+    text-decoration: none;
+}
+
+.communiction .whatsapp {
+    width: 50%;
+    font-size: 18px;
+
+    float: left;
+}
